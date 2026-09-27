@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="wWx`AfrO]E..7HY:8I@D">index</variable><variable id="4y;w}:4K~dhyHc@BohJ!">Mayak</variable></variables><block type="pxt-on-start" id="%7;/X`dL`3wgT*}RR`4R" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="OP)[i,JjU#LvhNl1Q:;M"><field name="VAR" id="4y;w}:4K~dhyHc@BohJ!">Mayak</field><value name="VALUE"><shadow type="math_number" id="Ly}ZTP`PXPtCZ81Bu_t9"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_forever" id="^^j9qomSpx#S4b7Jrnh8" x="27" y="192"><statement name="HANDLER"><block type="controls_if" id="8Q8T3{fOb:6;C$:ld?fY"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="PR1Vcj?e*S[bi^AHQcL+"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".zcKs++B-8LdCK$8$:Vn"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="k#|lfW,l)p7h+@}fpvFZ"><field name="NUM">0</field></shadow><block type="variables_get" id="cv+=j1xSPB,SS)uSwFl9"><field name="VAR" id="4y;w}:4K~dhyHc@BohJ!">Mayak</field></block></value><value name="B"><shadow type="math_number" id="[A-fSjcY~TBxkOAhcjA%"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="@sV~hd$pQ/n|rzIf0g[a"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="qk4Tqj7t^|QCEU|-EEyb"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id=",]^$AKFMBL+@?IBwGjKI"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="device_button_event" id="-/f,{xPgXUu9xt!wHF,f" x="583" y="213"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="~6AZWk!flkqPp0Dwc-Dl"><field name="VAR" id="4y;w}:4K~dhyHc@BohJ!">Mayak</field><value name="VALUE"><shadow type="math_number" id="_CFsW8*q@+B8pu^i6pf8"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="nL@7sSTN%6w_Kf$|Vm{c"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="v6VlKhoC[2*b!#5?}R#E" x="580" y="677"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="^.G,QO651lLj%[3Yg`(~"><field name="VAR" id="4y;w}:4K~dhyHc@BohJ!">Mayak</field><value name="VALUE"><shadow type="math_number" id="b1D/{`I=dreXA!@z0r^+"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="hViF;Tden5U^,zoNG:u~"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="W+S,Gy3s4BcA[$iEYN7?" x="404" y="1123"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="variables_change" id="1$Zq72],0F-_9-jBm~/`"><field name="VAR" id="4y;w}:4K~dhyHc@BohJ!">Mayak</field><value name="VALUE"><shadow type="math_number" id="AC*S%cH04g62lnHP!Mz^"><field name="NUM">1</field></shadow></value></block></statement></block></xml>
